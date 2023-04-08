@@ -42,7 +42,7 @@ A imagem de fundo mudará e as informações meteorológicas serão exibidas.
 - Displays the weather description.
 - Displays the humidity and wind speed.
 - Handles errors if the city is not found or if there is an error with the API.
-
+-
 - Atualiza a imagem de fundo com base na cidade pesquisada.
 - Exibe a temperatura atual em Celsius.
 - Exibe a descrição do tempo.
