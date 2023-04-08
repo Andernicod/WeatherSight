@@ -58,7 +58,7 @@ A imagem de fundo mudará e as informações meteorológicas serão exibidas.
 
 - Anderson Nicodemo
 
-## 📝 Licence/Licença
+# 📝 Licence/Licença
 
 This project is licensed under the MIT License. See the LICENSE.md file for more information.
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE.md para obter mais informações.
