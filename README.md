@@ -6,14 +6,14 @@ This is a modern weather app that displays the weather and updates the backgroun
 
 # 🛠️ Technologies used
 
--HTML
--CSS
--JavaScript
+- HTML
+- CSS
+- JavaScript
 
 # 🌐 APIs Used
 
--OpenWeatherMap
--Unsplash API
+- OpenWeatherMap
+- Unsplash API
 
 # 💻 How to use
 
@@ -27,16 +27,16 @@ The background image will change and the weather information will be displayed.
 
 #🎨 Features
 
--Updates background image based on the city searched.
--Displays the current temperature in Celsius.
--Displays the weather description.
--Displays the humidity and wind speed.
--Handles errors if the city is not found or if there is an error with the API.
+- Updates background image based on the city searched.
+- Displays the current temperature in Celsius.
+- Displays the weather description.
+- Displays the humidity and wind speed.
+- Handles errors if the city is not found or if there is an error with the API.
 
 #🙏 Credits
 
--OpenWeatherMap API
--Unsplash API for the background images
+- OpenWeatherMap API
+- Unsplash API for the background images
 
 #👨 Contributors
 
