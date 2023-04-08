@@ -4,18 +4,20 @@
 
 This is a modern weather app that displays the weather and updates the background image based on the city searched. It uses the OpenWeatherMap API to get the weather information.
 
-# 🛠️ Technologies used
+Este é um aplicativo de clima moderno que exibe o clima e atualiza a imagem de fundo com base na cidade pesquisada. Ele usa a API OpenWeatherMap para obter as informações meteorológicas.
+
+# 🛠️ Technologies used/Tecnologias usadas
 
 - HTML
 - CSS
 - JavaScript
 
-# 🌐 APIs Used
+# 🌐 APIs Used/APIs Usadas
 
 - OpenWeatherMap
 - Unsplash API
 
-# 💻 How to use
+# 💻 How to use/Como usar
 
 Open the https://andernicod.github.io/WeatherSight/WeatherSight.html in a web browser
 or
@@ -25,7 +27,15 @@ Enter the city you want to check the weather for in the search box.
 Press the search button.
 The background image will change and the weather information will be displayed.
 
-#🎨 Features
+Abra o https://andernicod.github.io/WeatherSight/WeatherSight.html em um navegador da web
+ou
+Clone este repositório ou baixe o arquivo ZIP.
+Abra o arquivo index.html em um navegador da web.
+Digite a cidade para a qual deseja verificar o clima na caixa de pesquisa.
+Pressione o botão de pesquisa.
+A imagem de fundo mudará e as informações meteorológicas serão exibidas.
+
+# 🎨 Features/Funções
 
 - Updates background image based on the city searched.
 - Displays the current temperature in Celsius.
@@ -33,15 +43,22 @@ The background image will change and the weather information will be displayed.
 - Displays the humidity and wind speed.
 - Handles errors if the city is not found or if there is an error with the API.
 
-#🙏 Credits
+- Atualiza a imagem de fundo com base na cidade pesquisada.
+- Exibe a temperatura atual em Celsius.
+- Exibe a descrição do tempo.
+- Exibe a umidade e a velocidade do vento.
+- Lida com erros se a cidade não for encontrada ou se houver um erro com a API.
+
+# 🙏 Credits/Créditos
 
 - OpenWeatherMap API
-- Unsplash API for the background images
+- Unsplash API for the background images/Unsplash API para gerar imagem de fundo
 
-#👨 Contributors
+# 👨 Contributors/Contruibuições
 
--Anderson Nicodemo
+- Anderson Nicodemo
 
-## 📝 Licence
+## 📝 Licence/Licença
 
+This project is licensed under the MIT License. See the LICENSE.md file for more information.
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE.md para obter mais informações.
