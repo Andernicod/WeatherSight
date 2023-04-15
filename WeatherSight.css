@@ -87,6 +87,10 @@ body{
     font-size: 28px;
 }
 
+.search-box i:hover{
+    color: brown;
+}
+
 .searchbackground{
     background: #1a1a2e00;
 }
