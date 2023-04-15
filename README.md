@@ -16,33 +16,40 @@ Este é um aplicativo de clima moderno que exibe o clima e atualiza a imagem de 
 
 - OpenWeatherMap
 - Unsplash API
+- Geolocation
 
 # 💻 How to use/Como usar
 
-Open the https://andernicod.github.io/WeatherSight/WeatherSight.html in a web browser
+Open https://andernicod.github.io/WeatherSight/WeatherSight.html in a web browser
 or
 Clone this repository or download the ZIP file.
 Open the index.html file in a web browser.
+Click the location icon to get your real-time location
+or
 Enter the city you want to check the weather for in the search box.
 Press the search button.
-The background image will change and the weather information will be displayed.
+The background image will change and weather information will be displayed.
 
 Abra o https://andernicod.github.io/WeatherSight/WeatherSight.html em um navegador da web
 ou
 Clone este repositório ou baixe o arquivo ZIP.
 Abra o arquivo index.html em um navegador da web.
+Clique no icone de localização para obter sua localização em tempo real
+ou
 Digite a cidade para a qual deseja verificar o clima na caixa de pesquisa.
 Pressione o botão de pesquisa.
 A imagem de fundo mudará e as informações meteorológicas serão exibidas.
 
 # 🎨 Features/Funções
 
+- Search real-time location when location icon is clicked.
 - Updates background image based on the city searched.
 - Displays the current temperature in Celsius.
 - Displays the weather description.
 - Displays the humidity and wind speed.
 - Handles errors if the city is not found or if there is an error with the API.
 -
+- Pesquisa a localização em tempo real quando o icone de localização é clicado.
 - Atualiza a imagem de fundo com base na cidade pesquisada.
 - Exibe a temperatura atual em Celsius.
 - Exibe a descrição do tempo.
