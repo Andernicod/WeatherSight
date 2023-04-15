@@ -11,6 +11,23 @@ const humidity = document.querySelector('.weather-details .humidity span');
 const wind = document.querySelector('.weather-details .wind span');
 const APIKey = '658767b0ae936b022f59a69f44868419';
 
+const locationIcon = document.querySelector('.fa-location-dot');
+locationIcon.addEventListener('click', async () => {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(async (position) => {
+      try {
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=metric&appid=${APIKey}`);
+        const json = await response.json();
+        input.value = json.name;
+        const searchBtn = document.querySelector('.search-box button');
+        searchBtn.click();
+      } catch (error) {
+        console.error(error);
+      }
+    });
+  }
+});
+
 search.addEventListener('click', async () => {
     const city = input.value;
     document.body.style.backgroundImage = `url('https://source.unsplash.com/1600x900/?${city}')`;
