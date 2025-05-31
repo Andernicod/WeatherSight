@@ -30,8 +30,23 @@ locationIcon.addEventListener('click', async () => {
 
 search.addEventListener('click', async () => {
     const city = input.value;
-    document.body.style.backgroundImage = `url('https://source.unsplash.com/1600x900/?${city}')`;
-    
+  
+    const accessKey = "LWo0sjUqthMa5iOKRuO21rDIwEV2mdnelI_XF9Vw1lo";
+    fetch(`https://api.unsplash.com/search/photos?query=${city}&client_id=${accessKey}`)
+    .then(response => response.json())
+    .then(data => {
+      if (data.results.length > 0) {
+        const randomIndex = Math.floor(Math.random() * data.results.length);
+        const imageUrl = data.results[randomIndex].urls.full;
+        document.body.style.backgroundImage = `url('${imageUrl}')`;
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundPosition = "center";
+      } else {
+        console.log("Nenhuma imagem encontrada.");
+      }
+    })
+    .catch(error => console.error("Erro ao buscar imagem:", error));
+  
     if (city === '') {
         return;
     }
